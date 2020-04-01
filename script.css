@@ -5,11 +5,31 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-body{
 
-    font-family: 'Open Sans', sans-serif;
+body{
     font-size: 14px;
     color: #151515;
+    font-family: "Open Sans", 'Work Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 500 600;
+	src: url(/assets/font/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Light";
+    font-weight: 100 400;
+	src: url(/assets/font/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "Open Sans Italic";
+	src: url(/assets/font/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    font-weight: 700 900;
+	src: url(/assets/font/OpenSans-SemiBold.ttf);
 }
 
 a {
@@ -32,7 +52,7 @@ header {
     display: flex;
     align-items: center;
     padding-left: 3%;
-    height: 5vh;
+    padding-top: 2%;
 }
 
 .header_container-agency img {
@@ -40,7 +60,7 @@ header {
 }
 
 .header_container-agency h1 {
-    font-style: italic;
+    font-family: "Open Sans Italic", 'Work Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     padding-left: 2%;
@@ -63,7 +83,7 @@ header {
     padding-bottom: 10%;
 }
 .header_container-title .header_container-title_test p{
-   font-size: 12px;
+    font-size: 12px;
 }
 
 .header_image {
@@ -177,7 +197,7 @@ header {
  
 #detail p {
     padding-top: 5%;
-    width: 90%;
+    width: 75vw;
 }
 
 .detail_container-web,
@@ -194,7 +214,7 @@ header {
 }
 
 #option .option_container {
-    width: 80%;
+    width: 80vw;
     margin: 0 auto;
     color: #fff;
     padding-top: 20%;
@@ -202,7 +222,7 @@ header {
 }
 
 #option .option_container h2{
-    width: 85%;
+    width: 85vw;
     font-size: 40px;
     font-weight: 400;
     line-height: 1.2;
@@ -259,7 +279,7 @@ header {
  
 #reason p {
     padding-top: 5%;
-    width: 90%;
+    width: 75vw;
 }
 
 .reason_container-web,
@@ -398,4 +418,55 @@ footer .footer_container .footer_container_links li {
 
 footer .footer_container .footer_container_links div {
     width: 25vw;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+/* TABLETS */
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+/* SECTION HEADER */
+
+
+.header_container-agency {
+    padding-top: 1%;
+}
+
+.header_container-title_test {
+    width: 40vw;
+}
+
+.header_container-title .header_container-title_test h2{
+    font-size: 50px;
+}
+.header_container-title .header_container-title_test p{
+   font-size: 12px;
+}
+
+.header_image {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
