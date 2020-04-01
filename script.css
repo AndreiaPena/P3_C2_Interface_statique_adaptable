@@ -341,7 +341,9 @@ footer {
     padding-bottom: 20%;
     background-color: #182432;
     color: #fff;
+    font-size: 12px;
 }
+
 footer .footer_container {
     width: 80vw;
     margin: 0 auto;
@@ -352,13 +354,48 @@ footer .footer_container h4 {
     font-weight: 600;
 }
 
-footer .footer_container p,
-footer .footer_container h4 {
-    font-size: 12px;
+footer .footer_container_stay{
+    padding-top: 10%;
 }
- 
+
+footer .footer_container_formulaire{
+    width: 90vw;
+}
+
+footer .footer_container_formulaire form input{
+    width: 70vw;
+    border: none;
+    padding: 2% 0;
+}
+
+footer .footer_container_formulaire form button{
+    background-color: #80BF96;
+    border: none;
+    padding: 2% 2%;
+}
+
+footer .footer_container_formulaire form .fas {
+    color: #fff;
+}
+
+footer .footer_container_stay p{
+    color: grey;
+}
 
 footer .footer_container .footer_container_links {
-    width: 80vw;
-    margin: 0 auto;
+    display: flex;
+    align-items: space-around;
+    padding-top: 10%;
+}
+
+footer .footer_container .footer_container_links ul {
+   list-style: none;
+}
+
+footer .footer_container .footer_container_links li {
+    padding-bottom: 2%;
+}
+
+footer .footer_container .footer_container_links div {
+    width: 25vw;
 }

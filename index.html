@@ -184,15 +184,20 @@
    <footer>
        <div class="footer_container">
         <div>
-            <div>
+            <div class="footer_container_get">
                 <h4>Get in touch</h4>
                 <p>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil laboriosam possimus quis sit excepturi. Corrupti!</p>
             </div>
-            <div>
+            <div class="footer_container_stay">
                 <h4>Stay in touch</h4>
-                <input type="email" id="email" pattern=".+@globex.com" size="30" required> 
+                <div class="footer_container_formulaire">
+                <form name="Formulaire" action="POST">
                 <label for="email"></label>
-                <p></p>
+                <input type="email" id="email" pattern=".+@globex.com" size="30" required>
+                <button name="submit" type="submit"><i class="fas fa-check"></i></i></button>
+                </form>
+                </div>
+                <p>We don't send spam.</p>
             </div>
         </div>
         <div class="footer_container_links">
