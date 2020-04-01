@@ -129,6 +129,7 @@ header {
 #service p {
     font-size: 10px;
     padding-bottom: 3%;
+    line-height: 1.2;
 }
 #service h3 {
     font-weight: 500;
@@ -236,7 +237,10 @@ header {
     font-size: 12px;
     padding-right: 3%;
 }
-
+#option .option_container_link{
+    display: flex;
+    align-items: center;
+}
 #option .option_container_link .option_link_icon{
     width: 12px;
     fill: #fff;
@@ -304,7 +308,7 @@ header {
     padding: 5% 0;
 }
 
-#business .business_container .business_container_2 {
+#business .business_container .business_container_post2 {
     padding-top: 15%;
 }
 
@@ -336,7 +340,6 @@ header {
 #business .business_container .business_container_list {
  padding-top: 5%;
  display: flex;
- justify-content: space-around;
  width: 15vw;
 }
 
@@ -345,6 +348,9 @@ header {
     fill: #b9b9b9;
     width: 22px;
     height: auto;
+}
+#business .business_container_list .business_list_microsoft{
+    margin-left: 18%;
 }
 
 /* SECTION FOOTER*/
@@ -489,13 +495,14 @@ width: 48%;
 }
 
 #service p {
-    font-size: 14px;
-    padding-bottom: 3%;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-bottom: 12%;
 }
 #service h3 {
     font-weight: 500;
     padding-bottom: 2%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #service .service_container-design {
@@ -517,6 +524,9 @@ width: 48%;
 #service .service_container-pictures {
     width: 100%;
 }
+#service .service_container-pictures p {
+    width: 90%;
+}
 
 #service .service_container-design,
 #service .service_container-build,
@@ -526,23 +536,123 @@ width: 48%;
     padding: 5% 5%;
 }
 
-#service .service_container_link{
-    width: 25vw;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+/* SECTION DETAILS*/
+
+#detail h3 {
+    font-size: 25px;
 }
 
-#service .service_container_link .fas{
+#detail .detail_container {
+ display: flex;
+ flex-wrap: wrap;
+}
+#detail h4, 
+#detail p {
+    font-size: 12px;
+}
+ 
+#detail p {
+    padding-top: 7%;
+    width: 100%;
+}
+
+.detail_container-web,
+.detail_container-performance,
+.detail_container-cultural,
+.detail_container-sub {
+ width: 50%;
+}
+.detail_container-web,
+.detail_container-cultural{
+padding-right: 3%;
+}
+
+/* SECTION OPTIONS*/
+
+#option .option_container h2{
+    width: 28vw;
+    font-size: 40px;
+}
+#option .option_container p{
+    padding-bottom: 5%;
+    width: 28vw;
+}
+
+#option .option_container a{
+    font-size: 12px;
+    padding-right: 3%;
+}
+
+#option .option_container_link .option_link_icon{
+    width: 14px;
+}
+
+
+/* SECTION REASONS ONBOARD*/
+
+#reason .reason_container .reason_container_list {
+display: flex;
+}
+
+#reason h3 {
+    font-size: 25px;
+}
+
+#reason h4, 
+#reason p {
+    font-size: 12px;
+}
+ 
+#reason p {
+    padding-top: 10%;
+    width: 100%;
+}
+
+.reason_container-web,
+.reason_container-team,
+.reason_container-support {
+ padding: 0 0;
+ padding-top: 5%;
+ width: 35%;
+}
+
+/* SECTION BUSINESS*/
+
+#business .business_container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+}
+#business .business_container h3 {
+    font-size: 25px;
+    padding-top: 7%;
+}
+
+#business .business_container p {
+    font-size: 12px;
+    width: 80%;
+}
+
+#business .business_container .business_container_post2 {
+    padding-top: 0;
+}
+
+#business .business_container  .business_container_proposal-legacy,
+#business .business_container  .business_container_proposal-popular,
+#business .business_container  .business_container_proposal-buy
+ {
     font-size: 10px;
 }
 
-
-
-
-
-
-
+#business .business_container_list .business_list_apple,
+#business .business_container_list .business_list_microsoft {
+    fill: #b9b9b9;
+    width: 25px;
+    height: auto;
+}
+#business .business_container_list .business_list_microsoft{
+    margin-left: 10%;
+}
 
 
 }
