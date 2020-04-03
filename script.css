@@ -2,8 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -62,7 +61,6 @@ header {
 .header_container-agency h1 {
     font-family: "Open Sans Italic", 'Work Sans', sans-serif;
     font-size: 20px;
-    font-weight: 600;
     padding-left: 2%;
 }
 
@@ -78,7 +76,6 @@ header {
 
 .header_container-title .header_container-title_test h2{
     font-size: 40px;
-    font-weight: 400;
     line-height: 1.2;
     padding-bottom: 10%;
 }
@@ -101,12 +98,10 @@ header {
 
 #introduction h3{
     font-size: 20px;
-    font-weight: 600;
 }
 
 #introduction p{
     font-size: 12px;
-    font-weight: 300;
     padding-top: 5%;
     color: #3f3f3f;
 }
@@ -122,7 +117,6 @@ header {
 
 #service a {
     font-size: 10px;
-    font-weight: 600;
     padding-right: 5%;
 }
 
@@ -132,7 +126,6 @@ header {
     line-height: 1.2;
 }
 #service h3 {
-    font-weight: 500;
     padding-bottom: 2%;
 }
 
@@ -185,14 +178,12 @@ header {
 
 #detail h3 {
     font-size: 20px;
-    font-weight: 600;
     padding-bottom: 2%;
 }
 
 #detail h4, 
 #detail p {
     font-size: 12px;
-    font-weight: 500;
     color: #292929;
 }
  
@@ -262,14 +253,12 @@ header {
 
 #reason h3 {
     font-size: 20px;
-    font-weight: 600;
     padding-bottom: 2%;
 }
 
 #reason h4, 
 #reason p {
     font-size: 12px;
-    font-weight: 500;
 }
  
 #reason p {
@@ -297,13 +286,11 @@ header {
 
 #business .business_container h3 {
     font-size: 16px;
-    font-weight: 500;
     padding-top: 5%;
 }
 
 #business .business_container p {
     font-size: 10px;
-    font-weight: 500;
     color: #292929;
     padding: 5% 0;
 }
@@ -324,7 +311,6 @@ header {
     background-color: #E6E6E9;
     color: #fff;
     font-size: 8px;
-    font-weight: 800;
 }
 
 #business .business_container .business_container_proposal-popular {
@@ -370,7 +356,6 @@ footer .footer_container {
 
 footer .footer_container h4 {
     padding-bottom: 2%;
-    font-weight: 600;
 }
 
 footer .footer_container_stay{
@@ -406,7 +391,6 @@ footer .footer_container_stay p{
 
 footer .footer_container .footer_container_links {
     display: flex;
-    align-items: space-around;
     padding-top: 10%;
 }
 
@@ -493,7 +477,6 @@ justify-content: space-between;
     padding-bottom: 12%;
 }
 #service h3 {
-    font-weight: 500;
     padding-bottom: 2%;
     font-size: 22px;
 }
@@ -986,13 +969,11 @@ footer .footer_container {
 
 footer .footer_container_get {
    width: 50%;
-   border: hotpink solid 1px;
 }
 
 footer .footer_container_stay{
     padding-top: 0;
     width: 50%;
-    border: hotpink solid 1px;
 }
 
 footer .footer_container_formulaire{
