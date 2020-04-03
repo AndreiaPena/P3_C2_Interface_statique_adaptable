@@ -1,8 +1,11 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body{
@@ -28,7 +31,7 @@ body{
 @font-face {
     font-family: "Open Sans Bold";
     font-weight: 700 900;
-	src: url(/assets/font/OpenSans-SemiBold.ttf);
+	src: url(./assets/font/OpenSans-Bold.ttf;);
 }
 
 a {
@@ -42,14 +45,25 @@ header {
     background: url(./images/mastehead.jpg) no-repeat center/ cover;
     color: #fff;
     height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .header_container-agency {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-left: 3%;
     padding-top: 2%;
 }
@@ -118,6 +132,8 @@ header {
 #service a {
     font-size: 10px;
     padding-right: 5%;
+    font-family: "Open Sans Bold", 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 #service p {
@@ -125,6 +141,7 @@ header {
     padding-bottom: 3%;
     line-height: 1.2;
 }
+
 #service h3 {
     padding-bottom: 2%;
 }
@@ -158,8 +175,12 @@ header {
 }
 
 #service .service_container_link{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #service .service_container_link .service_link_icon{
@@ -184,7 +205,7 @@ header {
 #detail h4, 
 #detail p {
     font-size: 12px;
-    color: #292929;
+    color: #616161;
 }
  
 #detail p {
@@ -227,10 +248,17 @@ header {
 #option .option_container a{
     font-size: 12px;
     padding-right: 3%;
+    font-family: "Open Sans Bold", 'Work Sans', sans-serif;
+    font-weight: 800;
 }
+
 #option .option_container_link{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 #option .option_container_link .option_link_icon{
     width: 12px;
@@ -325,6 +353,8 @@ header {
 
 #business .business_container .business_container_list {
  padding-top: 5%;
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
  width: 15vw;
 }
@@ -390,6 +420,8 @@ footer .footer_container_stay p{
 }
 
 footer .footer_container .footer_container_links {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 10%;
 }
@@ -444,8 +476,14 @@ footer .footer_container .footer_container_links div {
 
 #introduction .introduction_container_paragraph {
 
+display: -webkit-box;
+
+display: -ms-flexbox;
+
 display: flex;
-justify-content: space-between;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
 }
 
 #introduction h3{
@@ -462,8 +500,11 @@ justify-content: space-between;
 
 
 #service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     height: 60vh;
 }
 
@@ -519,8 +560,11 @@ justify-content: space-between;
 }
 
 #detail .detail_container {
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
- flex-wrap: wrap;
+ -ms-flex-wrap: wrap;
+     flex-wrap: wrap;
 }
 #detail h4, 
 #detail p {
@@ -567,6 +611,8 @@ padding-right: 3%;
 /* SECTION REASONS ONBOARD*/
 
 #reason .reason_container .reason_container_list {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
 }
 
@@ -597,6 +643,8 @@ display: flex;
 #business .business_container {
     width: 80vw;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 #business .business_container h3 {
@@ -712,8 +760,14 @@ header {
 
 #introduction .introduction_container_paragraph {
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     }
     
     #introduction h3{
@@ -782,8 +836,11 @@ header {
     width: 90%;
 }
 #service {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     height: 55vh;
 }
 
@@ -810,6 +867,8 @@ header {
 }
 
 .detail_container{
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
 }
 .detail_container-web,
@@ -849,8 +908,12 @@ header {
 }
 
 #option .option_container_link{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 #option .option_container_link .option_link_icon{
@@ -867,6 +930,8 @@ header {
 }
 
 #reason .reason_container .reason_container_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -899,6 +964,8 @@ header {
 
 #business .business_container {
     width: 60vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 #business .business_container h3 {
@@ -913,6 +980,8 @@ header {
 
 #business .business_container .business_container_post2 {
     padding-top: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     padding: 2% 5%;
 }
@@ -921,11 +990,14 @@ header {
     background-color: #fff;
     cursor: pointer;
     border-radius: 3%;
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
 }
 
 #business .business_container .business_container_post1 {
     padding-top: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     padding: 2% 5%;
 }
@@ -934,7 +1006,8 @@ header {
     background-color: #fff;
     cursor: pointer;
     border-radius: 3%;
-    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
 }
 
 #business .business_container  .business_container_proposal-legacy,
@@ -964,11 +1037,14 @@ footer .footer_container {
     width: 60vw;
 }
 .footer_container-getstay {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 footer .footer_container_get {
    width: 50%;
+   padding-right: 5%;
 }
 
 footer .footer_container_stay{
