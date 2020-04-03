@@ -86,7 +86,7 @@ header {
     font-size: 12px;
 }
 
-.header_image {
+.introduction_image {
     display: none;
 }
 
@@ -458,18 +458,10 @@ footer .footer_container .footer_container_links div {
 
 /*INTRO */
 
-#introduction {
-    display: flex;
-    justify-content: space-between;
-}
+#introduction .introduction_container_paragraph {
 
-#introduction .introduction_container_first-paragraph {
-width: 48%;
-}
-
-#introduction .introduction_container_second-paragraph {
-    width: 48%;
-    padding-top: 11%;
+display: flex;
+justify-content: space-between;
 }
 
 #introduction h3{
@@ -479,6 +471,7 @@ width: 48%;
 
 #introduction p{
     font-size: 14px;
+    width: 48%;
 }
 
 /*SERVICE */
@@ -646,7 +639,6 @@ display: flex;
 
 #business .business_container_list .business_list_apple,
 #business .business_container_list .business_list_microsoft {
-    fill: #b9b9b9;
     width: 25px;
     height: auto;
 }
@@ -654,5 +646,373 @@ display: flex;
     margin-left: 10%;
 }
 
+}
 
+
+
+/* SECTION LAPTOPS */
+
+
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+/*HEADER */
+
+header {
+    height: 100vh;
+}
+
+.header_container-agency {
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+}
+
+.header_container-agency img {
+    height: 20px;
+}
+
+.header_container-agency h1 {
+    font-size: 16px;
+    padding-left: 0.5%;
+}
+
+.header_container-title {
+    height: 50vh;
+    width: 60vw;
+}
+
+.header_container-title_test {
+    width: 28vw;
+}
+
+.header_container-title .header_container-title_test h2{
+    padding-bottom: 2%;
+}
+.header_container-title .header_container-title_test p{
+    font-size: 12px;
+}
+
+
+/*INTRO */
+
+#introduction {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 0%;
+    margin-bottom: 8%;
+}
+
+#introduction h3{
+    font-size: 25px;
+}
+
+#introduction p{
+    padding-top: 5%;
+    width: 30vw;
+}
+
+#introduction .introduction_image {
+    display: inline-block;
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
+#introduction .introduction_image img{
+    width: 35vw;
+    height: auto;
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}
+
+#introduction .introduction_container_paragraph {
+
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    #introduction h3{
+        font-size: 25px;
+        width: 80%;
+    }
+    
+    #introduction p{
+        font-size: 14px;
+        width: 48%;
+    }
+
+    /*SERVICE */
+
+
+#service {
+    width: 62vw;
+}
+
+#service a {
+    padding-right: 3%;
+}
+
+#service p {
+    font-size: 12px;
+    padding-bottom: 10%;
+}
+
+#service .service_signup_paragraph {
+    padding-bottom: 2%;
+}
+
+#service h3 {
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+#service .service_container-design,
+#service .service_container-build,
+#service .service_container-clients,
+#service .service_container-signup,
+#service .service_container-pictures {
+    padding: 3% 3%;
+}
+
+#service .service_container-design {
+    width: 33%;
+}
+
+#service .service_container-build {
+    width: 33%;
+}
+
+#service .service_container-clients {
+    width: 34%;
+}
+
+#service .service_container-signup {
+    width: 66%;
+}
+
+#service .service_container-pictures {
+    width: 34%;
+}
+#service .service_container-pictures p {
+    width: 90%;
+}
+#service {
+    display: flex;
+    flex-wrap: wrap;
+    height: 55vh;
+}
+
+/* SECTION DETAILS*/
+
+#detail {
+    width: 60vw;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+#detail h3 {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+#detail h4{
+    padding-bottom: 10%;
+}
+ 
+#detail p {
+    padding-top: 0;
+    width: 90%;
+}
+
+.detail_container{
+ display: flex;
+}
+.detail_container-web,
+.detail_container-performance,
+.detail_container-cultural,
+.detail_container-sub {
+ padding: 0 0;
+}
+
+
+/* SECTION OPTIONS*/
+
+#option {
+    height: 100vh;
+}
+
+#option .option_container {
+    width: 60vw;
+    padding-top: 24%;
+    padding-bottom: 0;
+}
+
+#option .option_container h2{
+    width: 46%;
+    padding-bottom: 2%;
+}
+
+#option .option_container p{
+    font-size: 12px;
+    padding-bottom: 3%;
+    width: 40%;
+}
+
+#option .option_container a{
+    font-size: 12px;
+    padding-right: 3%;
+}
+
+#option .option_container_link{
+    display: flex;
+    align-items: center;
+}
+
+#option .option_container_link .option_link_icon{
+    width: 12px;
+    fill: #fff;
+}
+
+
+/* SECTION REASONS ONBOARD*/
+
+#reason {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#reason .reason_container .reason_container_list {
+    display: flex;
+}
+
+#reason .reason_container {
+    width: 60vw;
+}
+
+#reason h3 {
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+#reason p {
+    padding-top: 10%;
+    width: 90%;
+}
+
+.reason_container-web,
+.reason_container-team,
+.reason_container-support {
+    padding: 0 0;
+}
+
+/* SECTION BUSINESS*/
+
+#business {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#business .business_container {
+    width: 60vw;
+    display: flex;
+}
+#business .business_container h3 {
+    font-size: 22px;
+    padding-top: 7%;
+}
+
+#business .business_container p {
+    font-size: 12px;
+    width: 90%;
+}
+
+#business .business_container .business_container_post2 {
+    padding-top: 0;
+    transition: 0.5s;
+    padding: 2% 5%;
+}
+
+#business .business_container .business_container_post2:hover {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 3%;
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+}
+
+#business .business_container .business_container_post1 {
+    padding-top: 0;
+    transition: 0.5s;
+    padding: 2% 5%;
+}
+
+#business .business_container .business_container_post1:hover {
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 3%;
+    box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.75);
+}
+
+#business .business_container  .business_container_proposal-legacy,
+#business .business_container  .business_container_proposal-popular,
+#business .business_container  .business_container_proposal-buy
+ {
+    font-size: 10px;
+}
+
+#business .business_container_list .business_list_apple,
+#business .business_container_list .business_list_microsoft {
+    width: 25px;
+    height: auto;
+}
+#business .business_container_list .business_list_microsoft{
+    margin-left: 5%;
+}
+
+/* SECTION FOOTER*/
+
+footer {
+    padding-top: 8%;
+    padding-bottom: 15%;
+}
+
+footer .footer_container {
+    width: 60vw;
+}
+.footer_container-getstay {
+    display: flex;
+}
+
+footer .footer_container_get {
+   width: 50%;
+   border: hotpink solid 1px;
+}
+
+footer .footer_container_stay{
+    padding-top: 0;
+    width: 50%;
+    border: hotpink solid 1px;
+}
+
+footer .footer_container_formulaire{
+    width: 100%;
+}
+
+footer .footer_container_formulaire form input{
+    width: 90%;
+    padding: 2% 0;
+}
+
+footer .footer_container_stay p{
+    font-size: 12px;
+}
+
+footer .footer_container .footer_container_links {
+    width: 50%;
+}
+
+footer .footer_container .footer_container_links ul {
+   padding-top: 5%;
+}
 }
