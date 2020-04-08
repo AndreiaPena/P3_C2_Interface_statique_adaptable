@@ -1,6 +1,3 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +5,7 @@
             box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 14px;
     color: #151515;
     font-family: "Open Sans", 'Work Sans', sans-serif;
@@ -19,19 +16,22 @@ body{
     font-weight: 500 600;
 	src: url(/assets/font/OpenSans-Regular.ttf);
 }
+
 @font-face {
     font-family: "Open Sans Light";
     font-weight: 100 400;
 	src: url(/assets/font/OpenSans-Light.ttf);
 }
+
 @font-face {
     font-family: "Open Sans Italic";
 	src: url(/assets/font/OpenSans-Italic.ttf);
 }
+
 @font-face {
     font-family: "Open Sans Bold";
     font-weight: 700 900;
-	src: url(./assets/font/OpenSans-Bold.ttf;);
+	src: url(./assets/font/OpenSans-SemiBold.ttf);
 }
 
 a {
@@ -50,11 +50,11 @@ header {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .header_container-agency {
@@ -81,11 +81,11 @@ header {
 .header_container-title {
     height: 40vh;
     margin: 0 auto;
-    width: 80vw;
+    width: 80%;
 }
 
 .header_container-title_test {
-    width: 50vw;
+    width: 50%;
 }
 
 .header_container-title .header_container-title_test h2{
@@ -104,7 +104,7 @@ header {
 /*INTRO */
 
 #introduction {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     margin-top: 20%;
     margin-bottom: 20%;
@@ -117,33 +117,34 @@ header {
 #introduction p{
     font-size: 12px;
     padding-top: 5%;
-    color: #3f3f3f;
+    color: #949494;
 }
 
 /*SERVICE */
 
 
 #service {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     color: #fff;
 }
 
 #service a {
-    font-size: 10px;
+    font-size: 11px;
     padding-right: 5%;
     font-family: "Open Sans Bold", 'Work Sans', sans-serif;
-    font-weight: 700;
 }
 
 #service p {
-    font-size: 10px;
-    padding-bottom: 3%;
+    font-size: 11px;
+    padding-bottom: 7%;
     line-height: 1.2;
 }
 
 #service h3 {
-    padding-bottom: 2%;
+    font-size: 18px;
+    padding-bottom: 4%;
+    font-family: "Open Sans Bold", 'Work Sans', sans-serif;
 }
 
 #service .service_container-design {
@@ -171,7 +172,7 @@ header {
 #service .service_container-clients,
 #service .service_container-signup,
 #service .service_container-pictures {
-    padding: 5% 10%;
+    padding: 10% 10%;
 }
 
 #service .service_container_link{
@@ -191,7 +192,7 @@ header {
 /* SECTION DETAILS*/
 
 #detail {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     margin-top: 20%;
     margin-bottom: 20%;
@@ -210,7 +211,7 @@ header {
  
 #detail p {
     padding-top: 5%;
-    width: 75vw;
+    width: 90%;
 }
 
 .detail_container-web,
@@ -227,7 +228,7 @@ header {
 }
 
 #option .option_container {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     color: #fff;
     padding-top: 20%;
@@ -235,7 +236,7 @@ header {
 }
 
 #option .option_container h2{
-    width: 85vw;
+    width: 85%;
     font-size: 40px;
     line-height: 1.2;
     padding-bottom: 3%;
@@ -249,7 +250,6 @@ header {
     font-size: 12px;
     padding-right: 3%;
     font-family: "Open Sans Bold", 'Work Sans', sans-serif;
-    font-weight: 800;
 }
 
 #option .option_container_link{
@@ -275,7 +275,7 @@ header {
 }
 
 #reason .reason_container {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -291,7 +291,7 @@ header {
  
 #reason p {
     padding-top: 5%;
-    width: 75vw;
+    width: 95%;
 }
 
 .reason_container-web,
@@ -308,12 +308,12 @@ header {
     background-color: #F4F8FB;
 }
 #business .business_container {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
 #business .business_container h3 {
-    font-size: 16px;
+    font-size: 20px;
     padding-top: 5%;
 }
 
@@ -331,7 +331,7 @@ header {
 #business .business_container  .business_container_proposal-popular,
 #business .business_container  .business_container_proposal-buy
  {
-
+    font-family: "Open Sans Bold", 'Work Sans', sans-serif;
     border: #E6E6E9 solid 1px;
     border-radius: 10%;
     display: inline;
@@ -380,7 +380,7 @@ footer {
 }
 
 footer .footer_container {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -392,12 +392,8 @@ footer .footer_container_stay{
     padding-top: 10%;
 }
 
-footer .footer_container_formulaire{
-    width: 90vw;
-}
-
 footer .footer_container_formulaire form input{
-    width: 70vw;
+    width: 90%;
     border: none;
     padding: 2% 0;
 }
@@ -435,8 +431,8 @@ footer .footer_container .footer_container_links li {
 }
 
 footer .footer_container .footer_container_links div {
-    width: 25vw;
-}
+    width: 40%;
+    padding: 0 2%;}
 
 
 
@@ -451,7 +447,7 @@ footer .footer_container .footer_container_links div {
 
 @media only screen 
   and (min-width: 768px) 
-  and (max-width: 1024px) 
+  and (max-width: 1100px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
 /* SECTION HEADER */
@@ -462,7 +458,11 @@ footer .footer_container .footer_container_links div {
 }
 
 .header_container-title_test {
-    width: 40vw;
+    width: 40%;
+}
+
+.header_container-agency h1 {
+    padding-left: 1%;
 }
 
 .header_container-title .header_container-title_test h2{
@@ -477,9 +477,7 @@ footer .footer_container .footer_container_links div {
 #introduction .introduction_container_paragraph {
 
 display: -webkit-box;
-
 display: -ms-flexbox;
-
 display: flex;
 -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -487,8 +485,9 @@ display: flex;
 }
 
 #introduction h3{
-    font-size: 25px;
-    width: 80%;
+    font-size: 30px;
+    width: 40%;
+    line-height: 1;
 }
 
 #introduction p{
@@ -519,7 +518,7 @@ display: flex;
 }
 #service h3 {
     padding-bottom: 2%;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 #service .service_container-design {
@@ -556,7 +555,7 @@ display: flex;
 /* SECTION DETAILS*/
 
 #detail h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #detail .detail_container {
@@ -589,13 +588,22 @@ padding-right: 3%;
 
 /* SECTION OPTIONS*/
 
+
+#option .option_container {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 30%;
+    padding-bottom: 25%;
+}
+
 #option .option_container h2{
-    width: 28vw;
-    font-size: 40px;
+    width: 45%;
+    font-size: 50px;
 }
 #option .option_container p{
     padding-bottom: 5%;
-    width: 28vw;
+    width: 40%;
 }
 
 #option .option_container a{
@@ -604,12 +612,14 @@ padding-right: 3%;
 }
 
 #option .option_container_link .option_link_icon{
-    width: 14px;
+    width: 3%;
 }
 
 
 /* SECTION REASONS ONBOARD*/
-
+#reason {
+    padding-top: 15%;
+}
 #reason .reason_container .reason_container_list {
 display: -webkit-box;
 display: -ms-flexbox;
@@ -617,7 +627,7 @@ display: flex;
 }
 
 #reason h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #reason h4, 
@@ -641,14 +651,14 @@ display: flex;
 /* SECTION BUSINESS*/
 
 #business .business_container {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 #business .business_container h3 {
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 7%;
 }
 
@@ -670,14 +680,21 @@ display: flex;
 
 #business .business_container_list .business_list_apple,
 #business .business_container_list .business_list_microsoft {
-    width: 25px;
+    width: 25%;
     height: auto;
 }
 #business .business_container_list .business_list_microsoft{
     margin-left: 10%;
 }
 
+footer .footer_container_stay p{
+    font-size: 12px;
 }
+
+}
+
+
+
 
 
 
@@ -685,23 +702,23 @@ display: flex;
 
 
 @media screen 
-  and (min-width: 1200px) 
+  and (min-width: 1101px) 
   and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 /*HEADER */
 
 header {
-    height: 100vh;
+    height: 95vh;
 }
 
 .header_container-agency {
     padding-left: 0.5%;
-    padding-top: 0.5%;
+    padding-top: 0;
 }
 
 .header_container-agency img {
-    height: 20px;
+    height: 50%;
 }
 
 .header_container-agency h1 {
@@ -711,11 +728,11 @@ header {
 
 .header_container-title {
     height: 50vh;
-    width: 60vw;
+    width: 60%;
 }
 
 .header_container-title_test {
-    width: 28vw;
+    width: 45%;
 }
 
 .header_container-title .header_container-title_test h2{
@@ -729,7 +746,7 @@ header {
 /*INTRO */
 
 #introduction {
-    width: 60vw;
+    width: 60%;
     margin: 0 auto;
     margin-top: 0%;
     margin-bottom: 8%;
@@ -741,7 +758,7 @@ header {
 
 #introduction p{
     padding-top: 5%;
-    width: 30vw;
+    width: 30%;
 }
 
 #introduction .introduction_image {
@@ -751,7 +768,7 @@ header {
     width: 100%;
 }
 #introduction .introduction_image img{
-    width: 35vw;
+    width: 60%;
     height: auto;
     position: absolute;
     right: -100px;
@@ -761,9 +778,7 @@ header {
 #introduction .introduction_container_paragraph {
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -784,7 +799,7 @@ header {
 
 
 #service {
-    width: 62vw;
+    width: 62%;
 }
 
 #service a {
@@ -847,7 +862,7 @@ header {
 /* SECTION DETAILS*/
 
 #detail {
-    width: 60vw;
+    width: 60%;
     margin-top: 5%;
     margin-bottom: 8%;
 }
@@ -886,7 +901,7 @@ header {
 }
 
 #option .option_container {
-    width: 60vw;
+    width: 60%;
     padding-top: 24%;
     padding-bottom: 0;
 }
@@ -936,7 +951,7 @@ header {
 }
 
 #reason .reason_container {
-    width: 60vw;
+    width: 60%;
 }
 
 #reason h3 {
@@ -963,13 +978,13 @@ header {
 }
 
 #business .business_container {
-    width: 60vw;
+    width: 60%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 #business .business_container h3 {
-    font-size: 22px;
+    font-size: 25px;
     padding-top: 7%;
 }
 
@@ -1014,12 +1029,12 @@ header {
 #business .business_container  .business_container_proposal-popular,
 #business .business_container  .business_container_proposal-buy
  {
-    font-size: 10px;
+    font-size: 11px;
 }
 
 #business .business_container_list .business_list_apple,
 #business .business_container_list .business_list_microsoft {
-    width: 25px;
+    width: 15%;
     height: auto;
 }
 #business .business_container_list .business_list_microsoft{
@@ -1034,7 +1049,7 @@ footer {
 }
 
 footer .footer_container {
-    width: 60vw;
+    width: 60%;
 }
 .footer_container-getstay {
     display: -webkit-box;
