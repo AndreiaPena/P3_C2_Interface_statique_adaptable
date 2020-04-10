@@ -703,7 +703,6 @@ footer .footer_container_stay p{
 
 @media screen 
   and (min-width: 1101px) 
-  and (max-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
 /*HEADER */
@@ -776,26 +775,25 @@ header {
 }
 
 #introduction .introduction_container_paragraph {
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    }
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
     
-    #introduction h3{
+#introduction h3{
         font-size: 25px;
         width: 80%;
-    }
+}
     
-    #introduction p{
+#introduction p{
         font-size: 14px;
         width: 48%;
-    }
+}
 
-    /*SERVICE */
+/*SERVICE */
 
 
 #service {
@@ -1045,12 +1043,13 @@ header {
 
 footer {
     padding-top: 8%;
-    padding-bottom: 15%;
+    padding-bottom: 12%;
 }
 
 footer .footer_container {
     width: 60%;
 }
+
 .footer_container-getstay {
     display: -webkit-box;
     display: -ms-flexbox;
